@@ -12,12 +12,12 @@ public class checkDigits
         String testString = sc.nextLine();
         for (int i=0;i<testString.length();i++)
         {
-          if((int)testString.charAt(i)<48 || (int)testString.charAt(i)>57)
+          if((int)testString.charAt(i)<48 || (int)testString.charAt(i)>57)  //To check if character is digit using Ascii values 
           {
               checkVar = false;
           }
         }
-        if(checkVar)
+        if(checkVar)  
         {
             System.out.print(testString+" : string has only digits ");
         }
