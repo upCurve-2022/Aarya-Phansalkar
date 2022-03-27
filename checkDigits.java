@@ -1,7 +1,10 @@
 package com.javaAssignment;
-
 import java.util.Scanner;
+/* 
 
+Program to check if entered string has only digits
+
+*/
 public class checkDigits
 {
     public static void main(String[] args)
