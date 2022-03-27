@@ -1,7 +1,8 @@
 package com.javaAssignment;
-
 import java.util.Scanner;
-
+/*
+Use case – Check Swiggy delivery to your area.
+*/
 public class deliveryTracking
 {
     //Method to check if entered zip code is matching with deliverable zip codes.
