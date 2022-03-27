@@ -9,7 +9,7 @@ public class evenOddNumber
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter a number: ");
         int testVar = sc.nextInt();
-        if(testVar%2==0)
+        if(testVar%2==0)                 //To check if number entered even
         {
             System.out.print("Number is even ");
         }
