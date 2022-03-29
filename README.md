@@ -1,2 +1,2 @@
-# Aarya-Phansalkar
+# Aarya Phansalkar
 Java Practice Assignments
