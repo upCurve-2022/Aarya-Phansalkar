@@ -7,7 +7,8 @@ public class isPalindrome
     {
             Scanner sc=new Scanner(System.in);
             System.out.println("Enter string : ");
-            String testString = sc.next();
+            String testString = sc.nextLine();
+            testString=testString.toLowerCase();
             String toCheck ="";
             for(int i=testString.length()-1;i>=0;i--)
             {
