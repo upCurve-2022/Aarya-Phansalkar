@@ -8,7 +8,7 @@ public class toUpperCase
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter string : ");
-        String testString = sc.next();
+        String testString = sc.nextLine();
         String upperCaseString = "";
         for(int i=0;i<testString.length();i++)
         {
